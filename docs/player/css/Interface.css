@@ -1,0 +1,226 @@
+#Movie2Obj2Inner, #Movie2btn0Back{
+	display: none !important;
+}
+
+body {
+	margin: 0px;
+}
+
+#TopDiv, #MidDiv, #BotDiv{
+	display: block;
+}
+
+#TLAvatar, #BLAvatar{
+	display: inline-block;
+}
+
+#TRAvatar, #BRAvatar{
+	display: inline-block;
+	float: right;
+}
+
+#ASATMainQuestion{
+	opacity:0.95;
+  display: none;
+	fontSize = 25px;
+	text-align: center;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: 5px;
+}
+
+
+#ASATQuestion{
+	opacity:0.95;
+	background:lightGreen;
+	border-radius: 10px 10px 10px 10px;
+  display: none;
+	padding:10px;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+#MQTextHolder{
+	background:lightBlue;
+	border-radius: 10px 10px 10px 10px;
+	display: none;
+	padding: 6px;
+}
+
+#InputArea{
+	opacity:0.95;
+	border-radius: 10px 10px 10px 10px;
+	overflow:hidden;
+  display: none;
+}
+
+#DoneMsg{
+    left: 300px;
+	right: 300px;
+    bottom: 30px;
+	height:160px;
+	background:lightGreen;
+	position: absolute;
+	opacity:0.95;
+	border-radius: 10px 10px 10px 10px;
+	overflow:hidden;
+    display: none;
+}
+
+
+#DebuggingArea{
+	left: 200px;
+	right: 200px;
+    top: 120px;
+	height:300px;
+	position: absolute;
+	opacity:0.95;
+	background:lightGrey;
+	border-radius: 10px 10px 10px 10px;
+	padding:5px;
+    display: none;
+    z-index: 1;
+	overflow:auto;
+}
+
+
+#MediaContainer{
+    display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 50%;
+}
+
+
+#video-placeholder{
+    display: none;
+	position:absolute;
+	top:50%;
+	left:50%;
+	width:640px;  /* adjust as per your needs */
+	height:480px;   /* adjust as per your needs */
+	margin-left:-320px;   /* negative half of width above */
+	margin-top:-240px;   /* negative half of height above */
+	z-index: 2;
+}
+
+
+textarea{
+    border-radius: 10px;
+    border: 1px solid #000;
+	padding:2px
+}
+
+#WorkingArea{
+    display: block;
+	position: absolute;
+	top:50%;
+	left:50%;
+	background:lightGrey;
+	width:1024px;  /* adjust as per your needs */
+	height:768px;   /* adjust as per your needs */
+	margin-left:-512px;   /* negative half of width above */
+	margin-top:-384px;   /* negative half of height above */
+	background-image: url("https://xiangenhu.github.io/ATMedia/IMG/CAT/BKG1.jpg");
+}
+
+
+#Title{
+	text-align: center;
+}
+
+
+#outputJSON{
+	left: 200px;
+	right: 200px;
+    bottom: 200px;
+	position: absolute;
+	opacity:0.95;
+	background:lightGrey;
+	border-radius: 10px 10px 10px 10px;
+	overflow:hidden;
+	padding:5px;
+    display: block;
+}
+
+#utilityBar{
+	width:100%;
+    bottom: 0px;
+	height:20px;
+	position: absolute;
+	opacity:0.95;
+	background:lightBlue;
+	overflow:hidden;
+    display: none;
+    z-index:2;
+}
+
+#myProgress {
+	background-color: #ddd;
+	bottom: 20px;
+	position: absolute;
+	left:50%;
+	width:640px;  /* adjust as per your needs */
+	margin-left:-320px;   /* negative half of width above */
+}
+
+#myBar {
+  width: 1%;
+  height: 20px;
+  background-color: #4CAF50;
+  display: none;
+}
+
+#Coversation{
+	left: 250px;
+	right: 250px;
+    bottom: 230px;
+	height:150px;
+	position: absolute;
+	opacity:0.95;
+	background:lightGrey;
+	border-radius: 10px 10px 10px 10px;
+	padding:5px;
+    display: none;
+    z-index: 1;
+	overflow:auto;
+}
+
+#TestCente{
+    left: 300px;
+	right: 300px;
+    bottom: 30px;
+	height:110px;
+	background:lightGreen;
+	position: absolute;
+	opacity:0.95;
+	border-radius: 10px 10px 10px 10px;
+	overflow:hidden;
+    display: block;
+}
+
+#MyWrapper{
+    display: block;
+	position: absolute;
+	top:0px;
+/*	left:50%;  */
+	border:none;
+	overflow:hidden;
+	background:white;
+	width:100%;  /* adjust as per your needs */
+	height:100%;   /* adjust as per your needs */
+/*	margin-left:-640px;   negative half of width above */
+}
+#RecordBtn{
+    display: none;
+}
+#audio{
+	display: block;
+	position:absolute;
+	top:50%;
+	left:50%;
+	width:80px;
+	height:60px;
+	margin-left:-40px;
+	margin-top:-30x;
+}
